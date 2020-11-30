@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b5e2a4e-f8ef-4065-85b3-27966eae6459" name="Default Changelist" comment="" />
+    <list default="true" id="9b5e2a4e-f8ef-4065-85b3-27966eae6459" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SimpleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SimpleCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="324">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,18 +68,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SimpleCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#69#70#0" expanded="true" />
                 <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
               </folding>
@@ -92,13 +108,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/SimpleCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SimpleCalculator.java" />
       </list>
     </option>
   </component>
@@ -136,6 +157,13 @@
               <item name="TravisGradleExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="TravisGradleExample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TravisGradleExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TravisGradleExample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -153,7 +181,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606761305769" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606763181260" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TravisGradleExample [test]">
+  <component name="RunManager" selected="JUnit.SimpleCalculatorTest">
     <configuration name="TravisGradleExample [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,10 +224,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleCalculatorTest.testAbs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.matthewglover.TravisGradleExample.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testAbs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest.testMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.matthewglover.TravisGradleExample.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest.testPow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.matthewglover.TravisGradleExample.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testPow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TravisGradleExample [test]" />
         <item itemvalue="JUnit.SimpleCalculatorTest" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.testAbs" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.testMax" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.testPow" />
+        <item itemvalue="Gradle.TravisGradleExample [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -221,22 +282,51 @@
       <option name="project" value="LOCAL" />
       <updated>1606760046338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="travis commit">
+      <created>1606761336917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606761336917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleCalculatorTest - 2020.11.30 at 11h 48m 36s.xml">
+    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 48m 40s.xml">
+      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 52m 34s.xml">
+      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 57m 49s.xml">
+      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 59m 13s.xml">
+      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="SimpleCalculatorTest_testPow - 2020.11.30 at 14h 02m 01s.xml">
+      <configuration name="SimpleCalculatorTest.testPow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalculatorTest_testMax - 2020.11.30 at 14h 03m 48s.xml">
+      <configuration name="SimpleCalculatorTest.testMax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalculatorTest_testMax - 2020.11.30 at 14h 04m 05s.xml">
+      <configuration name="SimpleCalculatorTest.testMax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalculatorTest_testAbs - 2020.11.30 at 14h 04m 16s.xml">
+      <configuration name="SimpleCalculatorTest.testAbs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleCalculatorTest - 2020.11.30 at 14h 04m 28s.xml">
       <configuration name="SimpleCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 11m 19s.xml">
-      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TravisGradleExample_[test] - 2020.11.30 at 13h 12m 37s.xml">
-      <configuration name="TravisGradleExample [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="SimpleCalculatorTest - 2020.11.30 at 14h 04m 48s.xml">
+      <configuration name="SimpleCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -245,20 +335,20 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49928468" weight="0.32894737" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.17095852" side_tool="true" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Build" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8290415" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info active="true" anchor="right" id="Gradle" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -270,21 +360,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FIRST COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIRST COMMIT" />
+    <MESSAGE value="travis commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="travis commit" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SimpleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#69#70#0" expanded="true" />
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
           </folding>
@@ -293,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="324">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
