@@ -24,4 +24,14 @@ public class SimpleCalculatorTest {
         SimpleCalculator calc = new SimpleCalculator();
         assertEquals(calc.div(8, 2), 4);
     }
+    @Test
+    public void testAbs() {
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.abs(-10), 10);
+    }
+    @Test
+    public void testMax() {
+        SimpleCalculator calc = new SimpleCalculator();
+        assertEquals(calc.max(12, 234), 234);
+    }
 }
